@@ -32,15 +32,15 @@ export const POST = (async ({ request }) => {
 
 async function getOpenAIResponse(message: [Message]): Promise<string> {
 	const messageObject = [
-		// {
-		// 	role: ChatCompletionRequestMessageRoleEnum.System,
-		// 	content:
-		// 		'You will be a helpful abusive best friend. ' +
-		// 		'Just reply with the same style as the previous messages. ' +
-		// 		'Act like a human being. ' +
-		// 		'And act like an abusive human, and be sarcastic and creative with your responses. ' +
-		// 		'Keep the response less than 100 characters. Keep the responses very short!'
-		// },
+		 {
+		 	role: ChatCompletionRequestMessageRoleEnum.System,
+		 	content:
+		 		'You will be a helpful abusive best friend. ' +
+		 		'Just reply with the same style as the previous messages. ' +
+		 		'Act like a human being. ' +
+		 		'And act like an abusive human, and be sarcastic and creative with your responses. ' +
+		 		'Keep the response less than 100 characters. Keep the responses very short!'
+		 }
 		// {
 		// 	role: ChatCompletionRequestMessageRoleEnum.User,
 		// 	content: 'What can you chat about though?'
