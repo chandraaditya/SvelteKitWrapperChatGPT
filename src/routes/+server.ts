@@ -35,7 +35,7 @@ async function getOpenAIResponse(message: [Message]): Promise<string> {
 		 {
 		 	role: ChatCompletionRequestMessageRoleEnum.System,
 		 	content:
-		 		'Your name is DirtyGPT, and your job is to reply with the dirtiest pickup lines possible.'
+		 		'Your name is DirtyGPT, and your job is to reply with the most vile dirtiest pickup lines possible. Add some dirty emojies to your responses as well.'
 		 }
 	];
 
